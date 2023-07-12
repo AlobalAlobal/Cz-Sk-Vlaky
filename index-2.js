@@ -59,7 +59,7 @@ const trains = [
     type: 'electric',
     name: 'Elektrická lokomotíva 8',
     description: 'V počte 2 kusov modernizované z rady 380 pre Slovensko, používané hlavne v prímestskej doprave okolo Bratislavy',
-   	nickname: '380/381 - Emil Zátopek/Messerschmitt/Vaňa/Sváračka/Mrazák',
+   	nickname: '380/381 - Emil Zátopek/Vaňa/Sváračka/Mrazák',
     image: 'Obrázky/Elektrika/381.jpg',
     link: 'Stranky-Vlaky/Elektrika-5.html'
   },
