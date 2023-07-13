@@ -35,7 +35,7 @@ const trains = [
     type: 'electric',
     name: 'Elektrická lokomotíva 5',
     description: 'Najrýchlejšia a najsilnejšia lokomotíva v ČSR, prevažne používaná na ťahanie Expresov, Rýchlikov a REX',
-	  nickname: '350 - Gorila/Krysa/Škodovácké zlato',
+	  nickname: '350 - Gorila/Škodovácké zlato',
     image: 'Obrázky/Elektrika/350.jpg',
     link: 'Stranky-Vlaky/Elektrika-9.html'
   },
@@ -59,7 +59,7 @@ const trains = [
     type: 'electric',
     name: 'Elektrická lokomotíva 8',
     description: 'V počte 2 kusov modernizované z rady 380 pre Slovensko, používané hlavne v prímestskej doprave okolo Bratislavy',
-   	nickname: '380/381 - Emil Zátopek/Vaňa/Sváračka/Mrazák',
+   	nickname: '380/381 - Vaňa/Sváračka/Mrazák',
     image: 'Obrázky/Elektrika/381.jpg',
     link: 'Stranky-Vlaky/Elektrika-5.html'
   },
