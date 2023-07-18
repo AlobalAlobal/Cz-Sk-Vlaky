@@ -151,38 +151,3 @@ h2 {
 .train-description {
   margin-top: 10px;
 }
-.train-container {
-	display: grid;
-	grid-template-columns: 1fr;
-	gap: 20px;
-	max-width: 600px;
-	margin: 0 auto;
-	padding: 20px;
-  }
-  
-  .picture {
-	text-align: center;
-  }
-  
-  .picture img {
-	max-width: 100%;
-	height: auto;
-  }
-  
-  .description {
-	text-align: center;
-  }
-  
-  .specs h3 {
-	font-size: 18px;
-  }
-  
-  .specs ul {
-	list-style: none;
-	padding: 0;
-  }
-  
-  .specs li {
-	margin-bottom: 10px;
-  }
-  

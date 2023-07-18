@@ -149,8 +149,8 @@ const trains = [
     type: 'diesel',
     name: 'Dieselová Lokomotíva 9',
     description: 'Vlak 9',
-	nickname: 'Vlak',
-    image: 'Obrázky/Diesel/.jpg',
+	nickname: '861 - Dunihlav, Húsenica',
+    image: 'Obrázky/Diesel/861.jpg',
     link: 'Stranky-Vlaky/Diesel-9.html'
   },
   {
