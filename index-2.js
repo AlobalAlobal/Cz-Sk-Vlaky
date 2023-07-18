@@ -11,73 +11,97 @@ const trains = [
     type: 'electric',
     name: 'Elektrická lokomotíva 2',
     description: 'Laminátky sú univerzálne elektrické lokomotívy, dnes sa ale prevažne používajú v nákladnej doprave',
-	  nickname: '230/240 - Laminátka/Lamino',
+	  nickname: '230 - Laminátka/Lamino',
     image: 'Obrázky/Elektrika/230.jpg',
     link: 'Stranky-Vlaky/Elektrika-2.html'
   },
   {
     type: 'electric',
     name: 'Elektrická lokomotíva 3',
-    description: 'Po technickej stránke sa jedná o pokračovanie rady 240 (nepriamo 230), používané hlavne v osobnej doprave',
-	  nickname: '242 - Plecháč/Plechovka',
-    image: 'Obrázky/Elektrika/242.jpg',
+    description: 'Prestavba staršej rady, dnes sa ale prevažne používajú v nákladnej doprave',
+	  nickname: '240 - Laminátka/Lamino',
+    image: 'Obrázky/Elektrika/240.jpg',
     link: 'Stranky-Vlaky/Elektrika-3.html'
   },
   {
     type: 'electric',
     name: 'Elektrická lokomotíva 4',
-    description: 'Vyvrcholenie rady lokomotív x6x, aj napriek veľkej spoľahlivosti bolo vyrobených iba 12 kusov kde všetky patria ČD',
-	  nickname: '263 - Princezná',
-    image: 'Obrázky/Elektrika/263.jpg',
+    description: 'Po technickej stránke sa jedná o pokračovanie rady 240 (nepriamo 230), používané hlavne v osobnej doprave',
+	  nickname: '242 - Plecháč/Plechovka',
+    image: 'Obrázky/Elektrika/242.jpg',
     link: 'Stranky-Vlaky/Elektrika-4.html'
   },
   {
     type: 'electric',
     name: 'Elektrická lokomotíva 5',
-    description: 'Najrýchlejšia a najsilnejšia lokomotíva v ČSR, prevažne používaná na ťahanie Expresov, Rýchlikov a REX',
-	  nickname: '350 - Gorila/Škodovácké zlato',
-    image: 'Obrázky/Elektrika/350.jpg',
+    description: 'Vyvrcholenie rady lokomotív x6x, aj napriek veľkej spoľahlivosti bolo vyrobených iba 12 kusov kde všetky patria ČD',
+	  nickname: '263 - Princezná',
+    image: 'Obrázky/Elektrika/263.jpg',
     link: 'Stranky-Vlaky/Elektrika-5.html'
   },
   {
     type: 'electric',
     name: 'Elektrická lokomotíva 6',
-    description: 'Prestavba starej rady 363 od ktorej sa delia vyššou maximálnou rýchlosťou, používaná sú hlavne v osobnej doprave',
-	  nickname: '362 - Eso/Rýchle Eso',
-    image: 'Obrázky/Elektrika/362.jpg',
+    description: 'Najrýchlejšie a najsilnejšie lokomotíva v ČSR, prevažne používaná na ťahanie Expresov, Rýchlikov a REX',
+	  nickname: '350 - Gorila/Škodovácké zlato',
+    image: 'Obrázky/Elektrika/350.jpg',
     link: 'Stranky-Vlaky/Elektrika-6.html'
   },
   {
     type: 'electric',
     name: 'Elektrická lokomotíva 7',
-    description: 'Povodné lokomotívy pochádzajú z Belgicka, v počte 9 kusov boli rekonštruované na použitie v nákladnej doprave',
-	  nickname: '365 - Belgičanka',
-    image: 'Obrázky/Elektrika/365.jpg',
+    description: 'Prestavba starej rady 162 od ktorej sa delia vyššou maximálnou rýchlosťou, používané sú hlavne v osobnej doprave',
+	  nickname: '361 - Morozmrd, Turbozmrd',
+    image: 'Obrázky/Elektrika/361.jpg',
     link: 'Stranky-Vlaky/Elektrika-7.html'
   },
   {
     type: 'electric',
     name: 'Elektrická lokomotíva 8',
-    description: 'V počte 2 kusov modernizované z rady 380 pre Slovensko, používané hlavne v prímestskej doprave okolo Bratislavy',
-   	nickname: '380/381 - Vaňa/Sváračka/Mrazák',
-    image: 'Obrázky/Elektrika/381.jpg',
+    description: 'Prestavba starej rady 363 od ktorej sa delia vyššou maximálnou rýchlosťou, používaná sú hlavne v osobnej doprave',
+	  nickname: '362 - Eso/Rýchle Eso',
+    image: 'Obrázky/Elektrika/362.jpg',
     link: 'Stranky-Vlaky/Elektrika-8.html'
   },
   {
     type: 'electric',
     name: 'Elektrická lokomotíva 9',
-    description: 'Modulárna lokomotíva používaná naprieč Európou a aj v USA, používaná v nákladnej aj v osobnej doprave - Expresy',
-	  nickname: '383 - Vectron, Vetroň, Vetrák',
-    image: 'Obrázky/Elektrika/383.jpg',
+    description: 'Československé dvojsystémové lokomotívy, kvôli svojej pomalej rýchlosti dnes používané hlavne v nákladnej doprave',
+	  nickname: '363 - Eso',
+    image: 'Obrázky/Elektrika/363.jpg',
     link: 'Stranky-Vlaky/Elektrika-9.html'
   },
   {
     type: 'electric',
     name: 'Elektrická lokomotíva 10',
-    description: 'Trojdielna súprava používaná v prímestskej doprave, postavená Škodou-Vagónkou a vyvážaná aj do zahraničia',
+    description: 'Povodné lokomotívy pochádzajú z Belgicka, v počte 9 kusov boli rekonštruované na použitie v nákladnej doprave',
+	  nickname: '365 - Belgičanka',
+    image: 'Obrázky/Elektrika/365.jpg',
+    link: 'Stranky-Vlaky/Elektrika-10.html'
+  },
+  {
+    type: 'electric',
+    name: 'Elektrická lokomotíva 11',
+    description: 'V počte 2 kusov modernizované z rady 380 pre Slovensko, používané hlavne v prímestskej doprave okolo Bratislavy',
+   	nickname: '380/381 - Vaňa/Sváračka/Mrazák',
+    image: 'Obrázky/Elektrika/381.jpg',
+    link: 'Stranky-Vlaky/Elektrika-11.html'
+  },
+  {
+    type: 'electric',
+    name: 'Elektrická lokomotíva 12',
+    description: 'Modulárne lokomotívy používané naprieč Európou a aj v USA, používané v nákladnej aj v osobnej doprave - Expresy',
+	  nickname: '383 - Vectron, Vetroň, Vetrák',
+    image: 'Obrázky/Elektrika/383.jpg',
+    link: 'Stranky-Vlaky/Elektrika-12.html'
+  },
+  {
+    type: 'electric',
+    name: 'Elektrická lokomotíva 13',
+    description: 'Trojdielne súpravy používané v prímestskej doprave, postavené Škodou-Vagónkou a vyvážané aj do zahraničia',
   	nickname: '671 - Jánošík, Ešus, Hliník',
     image: 'Obrázky/Elektrika/671.jpg',
-    link: 'Stranky-Vlaky/Elektrika-10.html'
+    link: 'Stranky-Vlaky/Elektrika-13.html'
   },
   //Pokračovanie - Elektrika
 
