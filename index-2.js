@@ -29,7 +29,7 @@ const trains = [
     description: 'Vyvrcholenie rady lokomotív x6x, aj napriek veľkej spoľahlivosti bolo vyrobených iba 12 kusov kde všetky patria ČD',
 	  nickname: '263 - Princezná',
     image: 'Obrázky/Elektrika/263.jpg',
-    link: 'Stranky-Vlaky/Elektrika-10.html'
+    link: 'Stranky-Vlaky/Elektrika-4.html'
   },
   {
     type: 'electric',
@@ -37,7 +37,7 @@ const trains = [
     description: 'Najrýchlejšia a najsilnejšia lokomotíva v ČSR, prevažne používaná na ťahanie Expresov, Rýchlikov a REX',
 	  nickname: '350 - Gorila/Škodovácké zlato',
     image: 'Obrázky/Elektrika/350.jpg',
-    link: 'Stranky-Vlaky/Elektrika-9.html'
+    link: 'Stranky-Vlaky/Elektrika-5.html'
   },
   {
     type: 'electric',
@@ -45,7 +45,7 @@ const trains = [
     description: 'Prestavba starej rady 363 od ktorej sa delia vyššou maximálnou rýchlosťou, používaná sú hlavne v osobnej doprave',
 	  nickname: '362 - Eso/Rýchle Eso',
     image: 'Obrázky/Elektrika/362.jpg',
-    link: 'Stranky-Vlaky/Elektrika-4.html'
+    link: 'Stranky-Vlaky/Elektrika-6.html'
   },
   {
     type: 'electric',
@@ -53,7 +53,7 @@ const trains = [
     description: 'Povodné lokomotívy pochádzajú z Belgicka, v počte 9 kusov boli rekonštruované na použitie v nákladnej doprave',
 	  nickname: '365 - Belgičanka',
     image: 'Obrázky/Elektrika/365.jpg',
-    link: 'Stranky-Vlaky/Elektrika-8.html'
+    link: 'Stranky-Vlaky/Elektrika-7.html'
   },
   {
     type: 'electric',
@@ -61,7 +61,7 @@ const trains = [
     description: 'V počte 2 kusov modernizované z rady 380 pre Slovensko, používané hlavne v prímestskej doprave okolo Bratislavy',
    	nickname: '380/381 - Vaňa/Sváračka/Mrazák',
     image: 'Obrázky/Elektrika/381.jpg',
-    link: 'Stranky-Vlaky/Elektrika-5.html'
+    link: 'Stranky-Vlaky/Elektrika-8.html'
   },
   {
     type: 'electric',
@@ -69,7 +69,7 @@ const trains = [
     description: 'Modulárna lokomotíva používaná naprieč Európou a aj v USA, používaná v nákladnej aj v osobnej doprave - Expresy',
 	  nickname: '383 - Vectron, Vetroň, Vetrák',
     image: 'Obrázky/Elektrika/383.jpg',
-    link: 'Stranky-Vlaky/Elektrika-6.html'
+    link: 'Stranky-Vlaky/Elektrika-9.html'
   },
   {
     type: 'electric',
@@ -77,23 +77,23 @@ const trains = [
     description: 'Trojdielna súprava používaná v prímestskej doprave, postavená Škodou-Vagónkou a vyvážaná aj do zahraničia',
   	nickname: '671 - Jánošík, Ešus, Hliník',
     image: 'Obrázky/Elektrika/671.jpg',
-    link: 'Stranky-Vlaky/Elektrika-7.html'
+    link: 'Stranky-Vlaky/Elektrika-10.html'
   },
   //Pokračovanie - Elektrika
 
   {
     type: 'diesel',
     name: 'Dieselová Lokomotíva 1',
-    description: 'Vlak 1',
-	nickname: 'Vlak',
-    image: 'Obrázky/Diesel/575.jpg',
+    description: 'Vlak 8',
+	nickname: '721 - (Veľký) Hektor/Šroťák',
+    image: 'Obrázky/Diesel/721.jpg',
     link: 'Stranky-Vlaky/Diesel-1.html'
   },
   {
     type: 'diesel',
     name: 'Dieselová Lokomotíva 2',
     description: 'Vlak 2',
-	nickname: 'Vlak',
+	nickname: '742 - Bangladéška/Kocúr/Včela',
     image: 'Obrázky/Diesel/742.jpg',
     link: 'Stranky-Vlaky/Diesel-2.html'
   },
@@ -101,7 +101,7 @@ const trains = [
     type: 'diesel',
     name: 'Dieselová Lokomotíva 3',
     description: 'Vlak 3',
-	nickname: 'Vlak',
+	nickname: '744 - N/A',
     image: 'Obrázky/Diesel/744.jpg',
     link: 'Stranky-Vlaky/Diesel-3.html'
   },
@@ -109,40 +109,43 @@ const trains = [
     type: 'diesel',
     name: 'Dieselová Lokomotíva 4',
     description: 'Vlak 4',
-	nickname: 'Vlak',
+	nickname: '746 - N/A',
     image: 'Obrázky/Diesel/746.jpg',
     link: 'Stranky-Vlaky/Diesel-4.html'
-  },{
+  },
+  {
     type: 'diesel',
     name: 'Dieselová Lokomotíva 5',
-    description: 'Vlak 5',
-	nickname: 'Vlak',
-    image: 'Obrázky/Diesel/770.jpg',
+    description: 'Vlak 1',
+	nickname: '757 - Okuliarnik',
+    image: 'Obrázky/Diesel/757.jpg',
     link: 'Stranky-Vlaky/Diesel-5.html'
   },
   {
     type: 'diesel',
     name: 'Dieselová Lokomotíva 6',
-    description: 'Vlak 6',
-	nickname: 'Vlak',
-    image: 'Obrázky/Diesel/812.jpg',
+    description: 'Vlak 5',
+	nickname: '770 - Čmeliak',
+    image: 'Obrázky/Diesel/770.jpg',
     link: 'Stranky-Vlaky/Diesel-6.html'
-  },{
+  },
+  {
     type: 'diesel',
     name: 'Dieselová Lokomotíva 7',
-    description: 'Vlak 7',
-	nickname: 'Vlak',
-    image: 'Obrázky/Diesel/813.jpg',
+    description: 'Vlak 6',
+	nickname: '812 - Šukafón/Regiomouse',
+    image: 'Obrázky/Diesel/812.jpg',
     link: 'Stranky-Vlaky/Diesel-7.html'
   },
   {
     type: 'diesel',
     name: 'Dieselová Lokomotíva 8',
-    description: 'Vlak 8',
-	nickname: 'Vlak',
-    image: 'Obrázky/Diesel/.jpg',
+    description: 'Vlak 7',
+	nickname: '813 - Bageta/Bagetka',
+    image: 'Obrázky/Diesel/813.jpg',
     link: 'Stranky-Vlaky/Diesel-8.html'
-  },{
+  },
+  {
     type: 'diesel',
     name: 'Dieselová Lokomotíva 9',
     description: 'Vlak 9',
@@ -165,7 +168,7 @@ const trains = [
     type: 'steam',
     name: 'Parná Lokomotíva 1',
     description: 'Vlak 1.',
-	nickname: 'Vlak',
+	nickname: '555.3 - Mazutka',
     image: 'Obrázky/555.3008.jpg',
     link: 'Stranky-Vlaky/Para-1.html'
   },
