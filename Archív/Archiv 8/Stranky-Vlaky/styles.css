@@ -1,0 +1,54 @@
+.train-chart {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    max-width: 400px;
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-left: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .train-name {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+  }
+  
+  .train-picture img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin: 0 auto;
+  }
+  
+  .train-specs {
+    border-top: 1px solid #ccc;
+    margin-top: 10px;
+    padding-top: 10px;
+  }
+  
+  .train-specs h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .train-specs table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .train-specs td {
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .train-specs td:first-child {
+    font-weight: bold;
+  }
+  
