@@ -18,7 +18,7 @@ const trains = [
   {
     type: 'electric',
     name: 'Elektrická lokomotíva 3',
-    description: 'Prestavba staršej rady, dnes sa ale prevažne používajú v nákladnej doprave',
+    description: 'Prestavba staršej rady, novšie 240 sa používajú aj v osobnej aj v nákladnej doprave, hlavne na hlavných ťahoch',
 	  nickname: '240 - Laminátka/Lamino',
     image: 'Obrázky/Elektrika/240.jpg',
     link: 'Stranky-Vlaky/Elektrika-3.html'
@@ -83,7 +83,7 @@ const trains = [
     type: 'electric',
     name: 'Elektrická lokomotíva 11',
     description: 'V počte 2 kusov modernizované z rady 380 pre Slovensko, používané hlavne v prímestskej doprave okolo Bratislavy',
-   	nickname: '380/381 - Vaňa/Sváračka/Mrazák',
+   	nickname: '381 - Vaňa/Sváračka/Mrazák',
     image: 'Obrázky/Elektrika/381.jpg',
     link: 'Stranky-Vlaky/Elektrika-11.html'
   },
@@ -133,7 +133,7 @@ const trains = [
     type: 'diesel',
     name: 'Dieselová Lokomotíva 4',
     description: 'Vlak 4',
-	nickname: '746 - N/A',
+	nickname: '746 - Mulička',
     image: 'Obrázky/Diesel/746.jpg',
     link: 'Stranky-Vlaky/Diesel-4.html'
   },
