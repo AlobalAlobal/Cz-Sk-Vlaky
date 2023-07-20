@@ -139,11 +139,27 @@ const trains = [
   },
   {
     type: 'diesel',
+    name: 'Dieselová Lokomotíva 10',
+    description: 'Vlak 10',
+	nickname: '751 - 	Zamračená/ Kozatá/ Bardotka',
+    image: 'Obrázky/Diesel/751.jpg',
+    link: 'Stranky-Vlaky/Diesel-5.html'
+  },
+  {
+    type: 'diesel',
     name: 'Dieselová Lokomotíva 5',
     description: 'Vlak 1',
 	nickname: '757 - Okuliarnik',
     image: 'Obrázky/Diesel/757.jpg',
-    link: 'Stranky-Vlaky/Diesel-5.html'
+    link: 'Stranky-Vlaky/Diesel-6.html'
+  },
+  {
+    type: 'diesel',
+    name: 'Dieselová Lokomotíva 10',
+    description: 'Vlak 10',
+	nickname: '761 - Herkules',
+    image: 'Obrázky/Diesel/761.jpg',
+    link: 'Stranky-Vlaky/Diesel-7.html'
   },
   {
     type: 'diesel',
@@ -151,7 +167,7 @@ const trains = [
     description: 'Vlak 5',
 	nickname: '770 - Čmeliak',
     image: 'Obrázky/Diesel/770.jpg',
-    link: 'Stranky-Vlaky/Diesel-6.html'
+    link: 'Stranky-Vlaky/Diesel-8.html'
   },
   {
     type: 'diesel',
@@ -159,7 +175,7 @@ const trains = [
     description: 'Vlak 6',
 	nickname: '812 - Šukafón/Regiomouse',
     image: 'Obrázky/Diesel/812.jpg',
-    link: 'Stranky-Vlaky/Diesel-7.html'
+    link: 'Stranky-Vlaky/Diesel-9.html'
   },
   {
     type: 'diesel',
@@ -167,7 +183,7 @@ const trains = [
     description: 'Vlak 7',
 	nickname: '813 - Bageta/Bagetka',
     image: 'Obrázky/Diesel/813.jpg',
-    link: 'Stranky-Vlaky/Diesel-8.html'
+    link: 'Stranky-Vlaky/Diesel-10.html'
   },
   {
     type: 'diesel',
@@ -175,17 +191,8 @@ const trains = [
     description: 'Vlak 9',
 	nickname: '861 - Dunihlav, Húsenica',
     image: 'Obrázky/Diesel/861.jpg',
-    link: 'Stranky-Vlaky/Diesel-9.html'
+    link: 'Stranky-Vlaky/Diesel-11.html'
   },
-  {
-    type: 'diesel',
-    name: 'Dieselová Lokomotíva 10',
-    description: 'Vlak 10',
-	nickname: 'Vlak',
-    image: 'Obrázky/Diesel/.jpg',
-    link: 'Stranky-Vlaky/Diesel-10.html'
-  },
-  
   //Pokračovanie - Diesel
 
   {

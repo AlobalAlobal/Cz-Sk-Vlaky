@@ -62,7 +62,7 @@ main {
 	}
 	
 .card:hover {
-		transition-duration:500ms;
+		transition-duration:300ms;
 		background-color:grey;
 		}
 		
