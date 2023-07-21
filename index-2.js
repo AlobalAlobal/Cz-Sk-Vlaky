@@ -141,7 +141,7 @@ const trains = [
     type: 'diesel',
     name: 'Dieselová Lokomotíva 10',
     description: 'Vlak 10',
-	nickname: '751 - 	Zamračená/ Kozatá/ Bardotka',
+	nickname: '751 - 	Zamračená/ Bardotka',
     image: 'Obrázky/Diesel/751.jpg',
     link: 'Stranky-Vlaky/Diesel-5.html'
   },
@@ -198,19 +198,11 @@ const trains = [
   {
     type: 'steam',
     name: 'Parná Lokomotíva 1',
-    description: 'Vlak 1.',
+    description: 'Vlak 1',
 	nickname: '555.3 - Mazutka',
     image: 'Obrázky/555.3008.jpg',
     link: 'Stranky-Vlaky/Para-1.html'
   },
-  {
-    type: 'steam',
-    name: 'Parná Lokomotíva 2',
-    description: 'Vlak 2',
-	nickname: 'Vlak',
-    image: 'Obrázky/jpg',
-    link: 'Stranky-Vlaky/Para-22.html'
-  }
   //Pokračovanie - Para
 ];
 
