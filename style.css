@@ -3,55 +3,55 @@ body {
 	margin: 0;
 	padding: 0;
 	overflow: scroll;
-  }
-  
-  header {
+}
+
+header {
 	background-color: #0081E0;
 	color: #fff;
 	padding: 20px;
 	text-align: center;
-  }
+}
   
-  header h1 {
+header h1 {
 	margin: 0;
 	font-size: 32px;
-  }
+}
   
-  nav {
+nav {
 	background-color: #0081E0;
 	padding: 10px;
 	text-align: center;
-  }
+}
   
-  nav ul {
+nav ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-  }
+}
   
-  nav ul li {
+nav ul li {
 	display: inline-block;
 	margin: 0 10px;
-  }
-  
-  nav ul li a:hover {
-	transition-duration: 500ms;
-	background-color: grey;
-  }
-  
-  nav ul li a {
+}
+
+nav ul li a {
 	padding: 10px 15px;
 	color: #fff;
 	text-decoration: none;
 	font-size: 18px;
-  }
+}
   
-  main {
+nav ul li a:hover {
+	transition-duration: 500ms;
+	background-color: grey;
+}
+
+main {
 	margin: 20px;
 	text-align: center;
-  }
+}
   
-  .card {
+.card {
 	display: inline-block;
 	width: 445px;
 	height: 520px;
@@ -59,30 +59,30 @@ body {
 	background-color: #f1f1f1;
 	border-radius: 10px;
 	overflow: hidden;
-  }
+}
   
-  .card:hover {
+.card:hover {
 	transition-duration: 300ms;
 	background-color: grey;
-  }
+}
   
-  .card img {
+.card img {
 	width: 100%;
 	height: 300px;
 	object-fit: cover;
-  }
+}
   
-  .card h3 {
+.card h3 {
 	font-size: 24px;
 	margin: 10px;
-  }
+}
   
-  .card p {
+.card p {
 	font-size: 16px;
 	margin: 10px;
-  }
+}
   
-  footer {
+footer {
 	background-color: #0081E0;
 	color: #fff;
 	padding: 20px;
@@ -90,9 +90,9 @@ body {
 	text-align: center;
 	left: 0;
 	bottom: 0;
-  }
+}
   
-  .train-text-window {
+.train-text-window {
 	position: absolute;
 	top: 147px;
 	left: 2%;
@@ -103,54 +103,125 @@ body {
 	border-radius: 5px;
 	display: inline-block;
 	vertical-align: top;
-  }
+}
   
-  .container {
+.container {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-  }
+}
   
-  .content {
+.content {
 	flex: 1;
 	margin: 0 20px;
-  }
+}
   
-  .content img {
+.content img {
 	max-width: 100%;
 	height: auto;
-  }
+}
   
-  h1 {
+h1 {
 	text-align: center;
-  }
+}
   
-  h2 {
+h2 {
 	margin-bottom: 10px;
-  }
+}
   
-  #electric-train-container,
-  #diesel-train-container,
-  #steam-train-container {
+#electric-train-container,
+#diesel-train-container,
+#steam-train-container {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 20px;
-  }
+}
   
-  .train-thumbnail {
+.train-thumbnail {
 	width: 250px;
 	border: 1px solid #ccc;
 	padding: 10px;
 	text-align: center;
 	cursor: pointer;
-  }
+}
   
-  .train-thumbnail img {
+.train-thumbnail img {
 	max-width: 100%;
 	height: auto;
-  }
+}
   
-  .train-description {
+.train-description {
 	margin-top: 10px;
-  }
+}
+
+.in-development-thumbnail {
+	background-color: rgb(238, 84, 84);
+}
+
+.dark-mode {
+	background-color: black;
+	color: white;
+}
+
+nav ul li .dark-mode-button {
+	padding: 10px 15px;
+	color: #fff;
+	background-color: #0081E0;
+	border: 0px;
+	font-size: 18px;
+}
+  
+nav ul li .dark-mode-button:hover {
+	transition-duration: 500ms;
+	background-color: grey;
+}
+  
+   /* Svetly mod*/
+body {
+	background-color: #f2f2f2;
+}
+
+header {
+	background-color: #0081E0;
+	color: #fff;
+}
+
+.text-window {
+	flex: 1;
+	background-color: #ccc;
+	padding: 20px;
+}
+
+/* Tmavy mod */
+.dark-mode body {
+	background-color: #333;
+	color: #fff;
+}
+
+.dark-mode header {
+	background-color: #333;
+}
+
+.dark-mode .text-window {
+	background-color: #333;
+	color: #fff;
+}
+
+.dark-mode nav {
+	background-color: #333 ;
+	color: #fff;
+}
+
+.dark-mode footer {
+	background-color: #333 ;
+	color: #fff;
+}
+
+.dark-mode .dark-mode-button {
+	background-color: #333;
+	color: #fff;
+	padding: 10px 15px;
+	border: 0px;
+	font-size: 18px;
+}
   

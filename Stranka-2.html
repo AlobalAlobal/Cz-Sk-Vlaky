@@ -20,6 +20,7 @@
 				<li><a href="Stranka-5.html">Čejndžlog</a></li>
 				<li><a href="https://www.youtube.com/channel/UC9laZ3XuQT1XXbpCCClQ_dw" target="_blank">Náš Youtube</a></li>
 				<li><a href="https://twitter.com/JozkoKvajda" target="_blank">Náš Twitter</a></li>
+				<li><button class="dark-mode-button" onclick="myFunction()">Tmavý Mód</button></li>
 			</ul>
 		</nav>
 	</header>
@@ -41,6 +42,26 @@
 	<footer>
 		<p>&copy; 2023 Cz/Sk Vlaky. All rights reserved.</p>
 	</footer>
+	<script>
+		function toggleDarkMode() {
+			var element = document.body;
+			element.classList.toggle("dark-mode");
+			
+			var isDarkModeActive = element.classList.contains("dark-mode");
+			localStorage.setItem("darkMode", isDarkModeActive);
+		}
+	
+		window.addEventListener('load', function () {
+			var isDarkModeActive = localStorage.getItem("darkMode");
+			if (isDarkModeActive === "true") {
+				document.body.classList.add("dark-mode");
+			}
+		});
+	
+		var darkModeButton = document.querySelector('.dark-mode-button');
+		darkModeButton.addEventListener('click', toggleDarkMode);
+	</script>
+	<script defer src="index-1.js"></script>
 	<script src="index-2.js"></script>
 </body>
 </html>
