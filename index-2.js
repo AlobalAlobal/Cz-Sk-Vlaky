@@ -6,7 +6,7 @@ const trains = [
 	  nickname: '131 - Dvojča/Dvojička',
     image: 'Obrázky/Elektrika/131.jpg',
     link: 'Stranky-Vlaky/131.html',
-    inDevelopment: true
+    inDevelopment: false
   },
   {
     type: 'electric',
@@ -15,7 +15,7 @@ const trains = [
 	  nickname: '140 - Bobina/Bobinka',
     image: 'Obrázky/Elektrika/140.jpg',
     link: 'Stranky-Vlaky/140.html',
-    inDevelopment: true
+    inDevelopment: false
   },
   {
     type: 'electric',
@@ -24,7 +24,7 @@ const trains = [
 	  nickname: '183 - Rakaňa/Šestikolo',
     image: 'Obrázky/Elektrika/183.jpg',
     link: 'Stranky-Vlaky/183.html',
-    inDevelopment: true
+    inDevelopment: false
   },
   {
     type: 'electric',
@@ -105,7 +105,7 @@ const trains = [
 	  nickname: '363.5 - Nákladné Eso/Paťkové Eso',
     image: 'Obrázky/Elektrika/363.5.jpg',
     link: 'Stranky-Vlaky/363.5.html',
-    inDevelopment: true
+    inDevelopment: false
   },
   {
     type: 'electric',
@@ -122,7 +122,7 @@ const trains = [
 	  nickname: '380 - Emil Zátopek/Vaňa/Zváračka',
     image: 'Obrázky/Elektrika/380.jpg',
     link: 'Stranky-Vlaky/380.html',
-    inDevelopment: true
+    inDevelopment: false
   },
   {
     type: 'electric',
@@ -147,7 +147,7 @@ const trains = [
 	  nickname: '386 - TRAXX',
     image: 'Obrázky/Elektrika/386.jpg',
     link: 'Stranky-Vlaky/386.html',
-    inDevelopment: true
+    inDevelopment: false
   },
   {
     type: 'electric',
@@ -166,7 +166,7 @@ const trains = [
   	nickname: '700 - Prasiatko, Gemina',
     image: 'Obrázky/Diesel/700.jpg',
     link: 'Stranky-Vlaky/700.html',
-    inDevelopment: true
+    inDevelopment: false
   },
   {
     type: 'diesel',
@@ -175,7 +175,7 @@ const trains = [
   	nickname: '703 - Prasiatko, Gemina',
     image: 'Obrázky/Diesel/703.jpg',
     link: 'Stranky-Vlaky/703.html',
-    inDevelopment: true
+    inDevelopment: false
   },
   {
     type: 'diesel',
@@ -192,7 +192,7 @@ const trains = [
   	nickname: '710 - Rosnička',
     image: 'Obrázky/Diesel/710.jpg',
     link: 'Stranky-Vlaky/710.html',
-    inDevelopment: true
+    inDevelopment: false
   },
   {
     type: 'diesel',
@@ -209,7 +209,7 @@ const trains = [
   	nickname: '725 - Plešatá Karkulka',
     image: 'Obrázky/Diesel/725.jpg',
     link: 'Stranky-Vlaky/725.html',
-    inDevelopment: true
+    inDevelopment: false
   },
   {
     type: 'diesel',
@@ -218,7 +218,7 @@ const trains = [
   	nickname: '730 - Ponorka',
     image: 'Obrázky/Diesel/730.jpg',
     link: 'Stranky-Vlaky/730.html',
-    inDevelopment: true
+    inDevelopment: false
   },
   {
     type: 'diesel',
@@ -227,7 +227,7 @@ const trains = [
   	nickname: '731 - Ponorka, Favorit, Špageta',
     image: 'Obrázky/Diesel/731.jpg',
     link: 'Stranky-Vlaky/731.html',
-    inDevelopment: true
+    inDevelopment: false
   },
   {
     type: 'diesel',
@@ -276,7 +276,7 @@ const trains = [
   	nickname: '749 - Zamračená/Bardotka',
     image: 'Obrázky/Diesel/749.jpg',
     link: 'Stranky-Vlaky/.html',
-    inDevelopment: true
+    inDevelopment: false
   },
   {
     type: 'diesel',
@@ -285,7 +285,7 @@ const trains = [
   	nickname: '750 - Okuliarnik',
     image: 'Obrázky/Diesel/750.jpg',
     link: 'Stranky-Vlaky/750.html',
-    inDevelopment: true
+    inDevelopment: false
   },
   {
     type: 'diesel',
@@ -358,7 +358,7 @@ const trains = [
   	nickname: '775 - Pomaranč/Cé Nula',
     image: 'Obrázky/Diesel/775.jpg',
     link: 'Stranky-Vlaky/775.html',
-    inDevelopment: true
+    inDevelopment: false
   },
   {
     type: 'diesel',
@@ -367,7 +367,7 @@ const trains = [
   	nickname: '781 - Sergej/Bubny Tajgy',
     image: 'Obrázky/Diesel/781.jpg',
     link: 'Stranky-Vlaky/781.html',
-    inDevelopment: true
+    inDevelopment: false
   },
   {
     type: 'diesel',
@@ -376,7 +376,7 @@ const trains = [
   	nickname: '799 - Adelka/Adéla',
     image: 'Obrázky/Diesel/799.jpg',
     link: 'Stranky-Vlaky/799.html',
-    inDevelopment: true
+    inDevelopment: false
   },
   {
     type: 'diesel',
@@ -385,7 +385,7 @@ const trains = [
   	nickname: '801 - Hrvínek/Kufor/Kredenc',
     image: 'Obrázky/Diesel/801.jpg',
     link: 'Stranky-Vlaky/801.html',
-    inDevelopment: true
+    inDevelopment: false
   },
   {
     type: 'diesel',
@@ -394,7 +394,7 @@ const trains = [
   	nickname: '810- Šukafón/Orchestrión/Krabička',
     image: 'Obrázky/Diesel/810.jpg',
     link: 'Stranky-Vlaky/810.html',
-    inDevelopment: true
+    inDevelopment: false
   },
   {
     type: 'diesel',
@@ -419,7 +419,7 @@ const trains = [
   	nickname: '820 - Singrovka/Vzducholoď/Kačka',
     image: 'Obrázky/Diesel/820.jpg',
     link: 'Stranky-Vlaky/820.html',
-    inDevelopment: true
+    inDevelopment: false
   },
   {
     type: 'diesel',
@@ -428,7 +428,7 @@ const trains = [
   	nickname: '830 - Kraksňa/Žhavé Trubky/Loď',
     image: 'Obrázky/Diesel/830.jpg',
     link: 'Stranky-Vlaky/830.html',
-    inDevelopment: true
+    inDevelopment: false
   },
   {
     type: 'diesel',
@@ -469,108 +469,108 @@ const trains = [
   	nickname: '893 - Mandelinka/Drotár/Pantograf',
     image: 'Obrázky/Diesel/893.jpg',
     link: 'Stranky-Vlaky/893.html',
-    inDevelopment: true
+    inDevelopment: false
   },
   //Pokračovanie - Diesel
 
   {
     type: 'steam',
     name: 'Parná Lokomotíva 1',
-    description: '',
+    description: 'Typycké malé parné lokomotívy československých dráh, používané na vlečkách, na posunoch a na vedľajších dráhach',
     nickname: '310.0 - Kafemlejnek/Tristodesiatka',
     image: 'Obrázky/Para/310.0.jpg',
     link: 'Stranky-Vlaky/310.0.html',
-    inDevelopment: true
+    inDevelopment: false
   },
   {
     type: 'steam',
     name: 'Parná Lokomotíva 1',
-    description: '',
+    description: 'Parné lokomotívy vyrobené a používané najskôr v Maďarsku spoločnosťou MÁV, neskôr prešli rôznymi rekonštrukciami až do ich vyradenia',
     nickname: '331.0 - Uhranka',
     image: 'Obrázky/Para/331.0.jpg',
     link: 'Stranky-Vlaky/331.0.html',
-    inDevelopment: true
+    inDevelopment: false
   },
   {
     type: 'steam',
     name: 'Parná Lokomotíva 1',
-    description: '',
+    description: 'Obľúbené, spoľahlivé stroje používané naprieč Československom - hlavne na "lokálkach" a v nákladnej doprave',
     nickname: '423.0 - Veľký Býček',
     image: 'Obrázky/Para/423.0.jpg',
     link: 'Stranky-Vlaky/423.0.html',
-    inDevelopment: true
+    inDevelopment: false
   },
   {
     type: 'steam',
     name: 'Parná Lokomotíva 1',
-    description: '',
+    description: 'Nedostatok lokomotív v ČSR spôsobil práve nákup "ventiloviek", používané v nákladnej aj osobnej doprave a výhradne na území Slovenska',
     nickname: '431.0 - Ventilovka',
     image: 'Obrázky/Para/431.0.jpg',
     link: 'Stranky-Vlaky/431.0.html',
-    inDevelopment: true
+    inDevelopment: false
   },
   {
     type: 'steam',
     name: 'Parná Lokomotíva 1',
-    description: '',
+    description: 'Parné lokomotívy rakúskej konštrukcie používané na území Československa, Maďarska, Rakúskac a aj Rumunska ',
     nickname: '434.1 - Jednotka/Štvorkolák',
     image: 'Obrázky/Para/434.1.jpg',
     link: 'Stranky-Vlaky/434.1.html',
-    inDevelopment: true
+    inDevelopment: false
   },
   {
     type: 'steam',
     name: 'Parná Lokomotíva 1',
-    description: '',
+    description: 'Československé lokomotívy vznikly prestavbou Rakúskzch 1701 kkStB, používané v nákladnej aj osobnej doprave',
     nickname: '434.2 - Dvojka/Štvorkolák',
     image: 'Obrázky/Para/434.2.jpg',
     link: 'Stranky-Vlaky/434.2.html',
-    inDevelopment: true
+    inDevelopment: false
   },
   {
     type: 'steam',
     name: 'Parná Lokomotíva 1',
-    description: '',
+    description: 'Boli univerzálnymi lokomotívami československých dráh, určené boli hlavne na rýchliky a osobné vlaky, prípadne aj na vozbu zrýchlených nákladných vlakov',
     nickname: '475.1 - Šľachtičná/Päťasedma',
     image: 'Obrázky/Para/475.1.jpg',
     link: 'Stranky-Vlaky/475.1.html',
-    inDevelopment: true
+    inDevelopment: false
   },
   {
     type: 'steam',
     name: 'Parná Lokomotíva 1',
-    description: '',
+    description: 'Lokomotívy boli posledným typom parných lokomotív vyrobených v ČKD pre ČSD, boli určené hlavne na vozbu osobných vlakov a rýchlikov',
     nickname: '477.0 - Papagáj',
     image: 'Obrázky/Para/477.0.jpg',
     link: 'Stranky-Vlaky/477.0.html',
-    inDevelopment: true
+    inDevelopment: false
   },
   {
     type: 'steam',
     name: 'Parná Lokomotíva 1',
-    description: '',
+    description: 'Československé rýchlikové lokomotívy a sú priamim predchodcom rady 498.0, celkovo bolo vyrobených 9 kusov no do dnešnej doby sa zachovali len 2',
     nickname: '486.0 - Zelený Anton',
     image: 'Obrázky/Para/486.0.jpg',
     link: 'Stranky-Vlaky/486.0.html',
-    inDevelopment: true
+    inDevelopment: false
   },
   {
     type: 'steam',
     name: 'Parná Lokomotíva 1',
-    description: '',
+    description: 'Jedná sa o predvojnové parné lokomotívy používané v nákladnej aj osobnej doprave. Boli prvými samostatnými konštrukciami firmy Škoda',
     nickname: '534.0 - Kremák',
     image: 'Obrázky/Para/534.0.jpg',
     link: 'Stranky-Vlaky/534.0.html',
-    inDevelopment: true
+    inDevelopment: false
   },
   {
     type: 'steam',
     name: 'Parná Lokomotíva 1',
-    description: 'Ríšske lokomotívy získané ako reparácie, 30 kusov bolo ku koncu prevádzky prerobených na spaľovanie mazutu',
+    description: 'Ríšske lokomotívy získané ako reparácie po vojne, 30 kusov bolo ku koncu prevádzky prerobených na spaľovanie mazutu',
     nickname: '555.3 - Mazutka',
     image: 'Obrázky/Para/555.3.jpg',
     link: 'Stranky-Vlaky/555.3.html',
-    inDevelopment: true
+    inDevelopment: false
   },
   //Pokračovanie - Para
 ];
